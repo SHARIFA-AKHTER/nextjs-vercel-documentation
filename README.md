@@ -27,3 +27,5 @@ To run this documentation site locally:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/SHARIFA-AKHTER/nextjs-vercel-documentation]
+
+   Next.JS Project Git Clone:[https://github.com/SHARIFA-AKHTER/simple-nextjs-app]
