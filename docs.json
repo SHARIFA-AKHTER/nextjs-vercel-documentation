@@ -1,12 +1,21 @@
+
 {
-  "name": "Next.js Deployment Guide",
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "How to Build and Deploy a Simple Next.js App with Vercel",
+  "colors": {
+    "primary": "#0D1117",
+    "light": "#DBE2EF",
+    "dark": "#3F3F3F"
+  },
+  "favicon": "/favicon.svg",
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Introduction",
       "pages": ["introduction"]
     },
     {
-      "group": "The Process",
+      "group": "Steps",
       "pages": [
         "creating-app",
         "github-setup",
@@ -14,5 +23,22 @@
         "env-vars"
       ]
     }
-  ]
+  ],
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Back to Portfolio",
+      "href": "https://my-portfolio-client-umber.vercel.app"  
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/SHARIFA-AKHTER",
+      "linkedin": "https://www.linkedin.com/in/sharifa-akhter-dev"
+    }
+  }
 }
