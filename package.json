@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "build": "npx mintlify build",
-    "install": "npm install -g mintlify"
-  }
-}
