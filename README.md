@@ -1,31 +1,55 @@
-# Next.js & Vercel Deployment Guide
+# Mintlify Starter Kit
 
-This repository contains the source code for a professional documentation site built with **Mintlify**. The guide provides a step-by-step walkthrough on how to build and deploy a simple Next.js application using Vercel.
+Use the starter kit to get your docs deployed and ready to customize.
 
-## 🚀 Live Demo
-You can view the live documentation here: **[Insert Your Vercel Live Link Here]**
+Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
 
-## 📋 Assignment Overview
-This project was developed as part of a technical assessment. The primary goal is to demonstrate:
-* **Technical Documentation:** Clear and concise instructions for developers.
-* **Tool Proficiency:** Utilizing Mintlify for documentation and Vercel for deployment.
-* **Structured Thinking:** Organizing complex technical steps into an easy-to-follow guide.
+- Guide pages
+- Navigation
+- Customizations
+- API reference pages
+- Use of popular components
 
-## 🛠️ Key Features
-* **Detailed Setup:** Instructions on initializing a Next.js app.
-* **GitHub Integration:** Best practices for version control and repository management.
-* **Vercel Deployment:** Comprehensive steps to go from local development to production.
-* **Environment Management:** Guidance on securing secrets using Environment Variables.
+**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
 
-## 💻 Tech Stack
-* **Framework:** [Mintlify](https://mintlify.com/)
-* **Deployment:** [Vercel](https://vercel.com/)
-* **Core Application Topic:** Next.js (React Framework)
+## AI-assisted writing
 
-## 🏗️ Local Development
-To run this documentation site locally:
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/SHARIFA-AKHTER/nextjs-vercel-documentation]
+Set up your AI coding tool to work with Mintlify:
 
-   Next.JS Project Git Clone:[https://github.com/SHARIFA-AKHTER/simple-nextjs-app]
+```bash
+npx skills add https://mintlify.com/docs
+```
+
+This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+
+See the [AI tools guides](/ai-tools) for tool-specific setup.
+
+## Development
+
+Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+
+```
+npm i -g mint
+```
+
+Run the following command at the root of your documentation, where your `docs.json` is located:
+
+```
+mint dev
+```
+
+View your local preview at `http://localhost:3000`.
+
+## Publishing changes
+
+Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+
+## Need help?
+
+### Troubleshooting
+
+- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
+- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+
+### Resources
+- [Mintlify documentation](https://mintlify.com/docs)

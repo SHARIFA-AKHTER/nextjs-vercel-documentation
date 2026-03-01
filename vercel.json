@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/:match*",
-      "destination": "https://upwork-52d9190a.mintlify.app/:match*"
-    }
-  ]
-}
