@@ -23,4 +23,4 @@ The documentation is built using **Mintlify** and includes the following section
 You can view the live documentation here: [https://upwork-52d9190a.mintlify.app]
 
 ---
-*Created by SHARIFA AKHTER*
+*Created by SHARIFA*
