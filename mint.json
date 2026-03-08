@@ -1,8 +1,7 @@
-
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "How to Build and Deploy a Simple Next.js App with Vercel",
+  "theme": "prism",
+  "name": "Sharifa's Dev Docs",
   "colors": {
     "primary": "#0D1117",
     "light": "#DBE2EF",
@@ -15,7 +14,15 @@
       "pages": ["introduction"]
     },
     {
-      "group": "Steps",
+      "group": "BoundBot AI Agent",
+      "pages": [
+        "boundbot-intro",
+        "boundbot-onboarding",
+        "boundbot-customization"
+      ]
+    },
+    {
+      "group": "Next.js & Vercel Guide",
       "pages": [
         "creating-app",
         "github-setup",
@@ -32,7 +39,7 @@
     "primary": {
       "type": "button",
       "label": "Back to Portfolio",
-      "href": "https://my-portfolio-client-umber.vercel.app"  
+      "href": "https://my-portfolio-client-umber.vercel.app"
     }
   },
   "footer": {
